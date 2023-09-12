@@ -1,0 +1,19 @@
+.MemberImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.MemberFlagMobile {
+  position: absolute;
+  bottom: -14px;
+  width: 45px;
+}
+
+@media (min-width: 992px) {
+  .MemberFlagMobile {
+    display: none;
+  }
+}

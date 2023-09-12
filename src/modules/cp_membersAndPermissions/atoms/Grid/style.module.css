@@ -1,0 +1,12 @@
+.Grid {
+  display: grid;
+  justify-items: center;
+  gap: var(--gap);
+}
+
+@media (min-width: 576px) {
+  .Grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

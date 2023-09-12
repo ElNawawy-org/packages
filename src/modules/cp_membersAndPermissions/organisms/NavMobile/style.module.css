@@ -1,0 +1,39 @@
+.NavMobile {
+  background-color: var(--components-bg-rgba);
+
+  height: var(--Nav-height);
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  padding-block: var(--Nav-padding-block);
+  padding-inline: var(--Container-padding);
+}
+
+.bell_comment {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  column-gap: 25px;
+}
+
+.bell_comment svg {
+  width: 30px;
+}
+
+.logo {
+  width: 40%;
+}
+
+.burger svg {
+  width: 30px;
+}
+
+@media (min-width: 992px) {
+  .NavMobile {
+    display: none;
+  }
+}

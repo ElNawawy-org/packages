@@ -1,0 +1,168 @@
+.NavDesktop {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .NavDesktop {
+    display: block;
+
+    background-color: var(--components-bg-rgba);
+
+    height: var(--Nav-height);
+
+    position: fixed;
+    right: calc(var(--SideNav-width));
+    top: 0px;
+    left: 0;
+    z-index: 2;
+
+    padding-block: var(--Nav-padding-block);
+    padding-inline: var(--Container-padding);
+  }
+
+  .leftSide {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .inputField_name {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--inputs-bg-rgba);
+    border-radius: 11px;
+    padding: 8px 10px;
+  }
+
+  .downArrow {
+    width: 8%;
+  }
+
+  .mainData {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .mainData .image {
+    width: 12%;
+  }
+
+  .mainData .name {
+    margin-inline-start: 15px;
+    color: var(--name-rgba);
+    font-size: 13px;
+  }
+
+  .questionSVG {
+    background-color: var(--inputs-bg-rgba);
+    padding: 10px;
+    border-radius: 11px;
+  }
+
+  .rightSide {
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .rightSide .headingSearch {
+    width: 60%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .rightSide .headingSearch .searchBtn {
+    background-color: var(--action-border-rgba);
+    padding: 11px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+  }
+
+  .rightSide .headingSearch .searchBtn button {
+    background-color: var(--action-border-rgba);
+    cursor: pointer;
+  }
+
+  .headingSearch .inputFiled {
+    width: 100%;
+    position: relative;
+  }
+
+  .rightSide .headingSearch input {
+    background-color: var(--inputs-bg-rgba);
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 13px 40px;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .headingSearch .searchSVG {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 20px;
+  }
+
+  .headingSearch .filterSVG {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    cursor: pointer;
+    width: 20px;
+  }
+
+  .questionSVG:nth-child(2) {
+    margin: 0 25px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .leftSide {
+    width: 35%;
+  }
+
+  .inputField_name {
+    width: 80%;
+
+    padding: 8px;
+  }
+
+  .mainData {
+    width: 100%;
+  }
+
+  .mainData .name {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+  .questionSVG {
+    background-color: var(--inputs-bg-rgba);
+    padding: 10px;
+    border-radius: 11px;
+  }
+
+  .rightSide {
+    width: 55%;
+  }
+
+  .rightSide .headingSearch {
+    width: 80%;
+  }
+
+  .headingSearch .inputFiled {
+    width: 100%;
+  }
+}

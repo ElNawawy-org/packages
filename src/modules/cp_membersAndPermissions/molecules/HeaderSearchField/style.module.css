@@ -1,0 +1,17 @@
+.HeaderSearchField {
+  /*width: 73%;*/
+  position: relative;
+  justify-self: flex-start;
+}
+/*
+@media (min-width: 992px) {
+  .HeaderSearchField {
+    width: 35%;
+    margin-left: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .HeaderSearchField {
+    width: 28%;
+  }
+}*/

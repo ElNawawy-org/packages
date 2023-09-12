@@ -1,0 +1,11 @@
+.HeaderInput {
+  background-color: var(--inputs-bg-rgba);
+  border-radius: 10px;
+  padding: 13px 40px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.HeaderInput:focus {
+  border: 2px solid var(--inputs-border-focus-rgba);
+}

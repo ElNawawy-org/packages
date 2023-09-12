@@ -1,0 +1,12 @@
+.main {
+  margin-block-start: var(--Nav-height);
+
+  padding-inline-start: var(--Container-padding);
+  padding-block: var(--Nav-padding-block);
+}
+
+@media (min-width: 992px) {
+  .main {
+    margin-inline-start: calc(var(--SideNav-width) - var(--Container-padding));
+  }
+}

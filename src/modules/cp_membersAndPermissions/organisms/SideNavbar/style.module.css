@@ -1,0 +1,91 @@
+.SideNavbar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .SideNavbar {
+    background-color: var(--components-bg-rgba);
+
+    display: block;
+
+    height: 100%;
+    width: var(--SideNav-width);
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    padding-inline: var(--Container-padding) 20px;
+    padding-block-start: var(--Nav-padding-block);
+  }
+
+  .SideNavbar .logoSVG {
+    width: 45%;
+
+    margin: auto;
+  }
+
+  .SideNavbar ul {
+    margin-top: 80px;
+  }
+
+  .SideNavbar ul li {
+    color: var(--action-bg-rgba);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  .SideNavbar ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .NavItemBG {
+    background-color: var(--action-selected-rgba);
+  }
+
+  .SideNavbar ul li:nth-child(3) div {
+    width: 10%;
+  }
+
+  .SideNavbar ul li:nth-child(1) div,
+  .SideNavbar ul li:nth-child(2) div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: var(--name-rgba);
+  }
+
+  .SideNavbar ul li:nth-child(1) div {
+    background-color: var(--yellow);
+  }
+
+  .SideNavbar ul li:nth-child(2) div {
+    background-color: var(--violet);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .SideNavbar ul li {
+    color: var(--action-bg-rgba);
+    margin-bottom: 5px;
+    padding: 15px 30px 15px 15px;
+    font-size: 14px;
+  }
+}

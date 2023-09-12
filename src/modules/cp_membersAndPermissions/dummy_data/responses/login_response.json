@@ -1,0 +1,23 @@
+{
+  "succeeded": true,
+  "data": {
+    "id": "d87049b6-c64f-4b97-9c90-fbc4cb6297bc",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTWVkbyIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IkQ4NzA0OUI2LUM2NEYtNEI5Ny05QzkwLUZCQzRDQjYyOTdCQyIsImp0aSI6IjBkMjk4N2U5LWJkMzItNDcyOS04OTBkLWVmMTFlN2EzYzViOCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluaXN0cmF0b3IiLCJleHAiOjE2OTA2Mzk4NjQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzU3IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo0MjAwIn0.QT_IcOA1ULCMDDePvWwPkGzl90P3RZ27OGEdw6zpRVc",
+    "userName": "Medo",
+    "fullName": "محمد محسن",
+    "mobileNo": "01063002158",
+    "email": "medomohsen293@gmail.com",
+    "imageProfile": "http://15.188.224.199:259/GDoc/Empty.png",
+    "roles": ["Administrator"],
+    "expiration": "2023-07-23T16:40:59.3146925+03:00",
+    "dashboard": {
+      "travels": 10,
+      "orders": 20,
+      "meetings": 22,
+      "requisitions": 33
+    },
+    "language": "En"
+  },
+  "warningErrors": null,
+  "validationErrors": []
+}

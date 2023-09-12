@@ -1,0 +1,11 @@
+.UnderConstruction {
+  height: 70vh;
+
+  display: grid;
+  gap: 30px;
+
+  justify-items: center;
+  align-content: center;
+
+  font-size: 40px;
+}

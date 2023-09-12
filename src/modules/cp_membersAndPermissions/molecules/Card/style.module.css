@@ -1,0 +1,37 @@
+.Card {
+  background-color: var(--components-bg-rgba);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  width: clamp(
+    var(--Card-min-width),
+    var(--Card-preferred-width),
+    min(100%, var(--Card-max-width))
+  );
+
+  word-wrap: break-word;
+  white-space: pre-wrap;
+
+  border-radius: var(--border-radius);
+
+  padding: var(--padding);
+
+  overflow: hidden;
+
+  text-align: center;
+}
+
+.name {
+  color: var(--name-rgba);
+}
+
+.position {
+  color: var(--action-bg-rgba);
+}
+
+.inner {
+  color: var(--inner-status-rgba);
+}
+
+.outer {
+  color: var(--outer-status-rgba);
+}
